@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Function Keys PCB.kicad_pro",
+    "filename": "Number Pad.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "afce3437-1dd6-45f1-9f66-a40cb2cc1cf6",
+      "c0e34d33-5ee1-486e-9579-83e70b2dbf7c",
       ""
     ]
   ],
