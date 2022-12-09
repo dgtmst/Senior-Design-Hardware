@@ -915,6 +915,15 @@
     (uuid ff0d57ad-9902-432b-bda0-a3f539561ba9)
   )
 
+  (text "Keycaps" (at 107.95 24.13 0)
+    (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
+    (uuid 229c53e0-4f36-418d-8933-c63b9743b16f)
+  )
+  (text "JST Connector" (at 238.76 22.86 0)
+    (effects (font (size 2.5 2.5) bold) (justify left bottom))
+    (uuid 833c8fb1-fef0-4227-8621-c44c31003858)
+  )
+
   (global_label "COL9" (shape input) (at 168.91 45.085 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0687ddcf-ab66-401d-966f-16ee5bee0962)
@@ -1198,7 +1207,7 @@
   (symbol (lib_id "power:+5V") (at 256.54 33.655 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 28d245e6-760a-415c-8769-f01870c1e875)
-    (property "Reference" "#PWR?" (id 0) (at 256.54 37.465 0)
+    (property "Reference" "#PWR0101" (id 0) (at 256.54 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 256.54 28.575 0))
@@ -1556,9 +1565,9 @@
   (symbol (lib_id "Connector:Conn_01x18_Male") (at 246.38 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bc8068e2-9f72-4917-94ba-efea6f50fd73)
-    (property "Reference" "J?" (id 0) (at 247.015 31.115 0))
+    (property "Reference" "J1" (id 0) (at 247.015 31.115 0))
     (property "Value" "Conn_01x18_Male" (id 1) (at 247.015 33.655 0))
-    (property "Footprint" "" (id 2) (at 246.38 56.515 0)
+    (property "Footprint" "Connector_JST:JST_SH_SM20B-SRSS-TB_1x20-1MP_P1.00mm_Horizontal" (id 2) (at 246.38 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 246.38 56.515 0)
@@ -1697,14 +1706,14 @@
   )
 
   (symbol_instances
+    (path "/28d245e6-760a-415c-8769-f01870c1e875"
+      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/e996d610-320b-458b-b04b-0312af11e60f"
       (reference "#PWR0103") (unit 1) (value "VCC") (footprint "")
     )
     (path "/be2f2f1d-e314-49ba-97a5-54b368002f2c"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/28d245e6-760a-415c-8769-f01870c1e875"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/46d1f41e-732c-44a9-93bc-50d3da3c5e1f"
       (reference "D1") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
@@ -1746,7 +1755,7 @@
       (reference "D13") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/bc8068e2-9f72-4917-94ba-efea6f50fd73"
-      (reference "J?") (unit 1) (value "Conn_01x18_Male") (footprint "")
+      (reference "J1") (unit 1) (value "Conn_01x18_Male") (footprint "Connector_JST:JST_SH_SM20B-SRSS-TB_1x20-1MP_P1.00mm_Horizontal")
     )
     (path "/953e6a73-9071-4c3b-9621-8aa02821bfc7"
       (reference "MX_F1") (unit 1) (value "MX-NoLED") (footprint "MX_Alps_Hybrid:MX-1U-NoLED")
