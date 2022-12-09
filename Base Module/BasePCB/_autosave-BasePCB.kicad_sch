@@ -3038,7 +3038,7 @@
     (uuid fd1ee9a2-ff25-4eea-a58e-3621a0728611)
   )
 
-  (text "USB-C" (at 215.9 210.82 0)
+  (text "USB-A\n" (at 215.9 210.82 0)
     (effects (font (size 2.5 2.5) bold) (justify left bottom))
     (uuid 284679d9-24b6-488e-8ebb-ee4059f3036b)
   )
