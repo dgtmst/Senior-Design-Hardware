@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Base Module Gerber/")
+      (outputdirectory "Base Updated Gerbers/")
     )
   )
 
