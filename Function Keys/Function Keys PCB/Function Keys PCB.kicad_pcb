@@ -106,7 +106,7 @@
   (net 29 "COL11")
   (net 30 "COL12")
   (net 31 "COL0")
-  (net 32 "unconnected-(J1-Pad19)")
+  (net 32 "unconnected-(J1-Pad18)")
   (net 33 "unconnected-(J1-Pad20)")
 
   (footprint "MX_Alps_Hybrid:MX-1U-NoLED" (layer "F.Cu")
@@ -455,9 +455,9 @@
     (pad "17" thru_hole oval (at 0 20.32 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "ROW10") (pinfunction "Pin_17") (pintype "passive") (tstamp b4376338-27ee-44ae-bb40-f129cea147d7))
     (pad "18" thru_hole oval (at 2.54 20.32 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 18 "GND") (pinfunction "Pin_18") (pintype "passive") (tstamp 83f76497-83d9-4632-a72a-c5234adff3dc))
+      (net 32 "unconnected-(J1-Pad18)") (pinfunction "Pin_18") (pintype "passive") (tstamp 83f76497-83d9-4632-a72a-c5234adff3dc))
     (pad "19" thru_hole oval (at 0 22.86 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 32 "unconnected-(J1-Pad19)") (pinfunction "Pin_19") (pintype "passive") (tstamp b69c08a9-1088-4cf8-8ed4-60c8f2c9c84e))
+      (net 18 "GND") (pinfunction "Pin_19") (pintype "passive") (tstamp b69c08a9-1088-4cf8-8ed4-60c8f2c9c84e))
     (pad "20" thru_hole oval (at 2.54 22.86 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 "unconnected-(J1-Pad20)") (pinfunction "Pin_20") (pintype "passive") (tstamp 86a896e7-de5b-4e23-92e6-c3062cfde3c3))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Horizontal.wrl"
@@ -1508,10 +1508,8 @@
   )
 
   (gr_circle (center 71.4375 72.23125) (end 71.4375 71.4375) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 0e17919b-4d76-4f86-82f8-280996faed1d))
-  (gr_line (start 268.2875 76.2) (end 25.4 76.2) (layer "Edge.Cuts") (width 0.15) (tstamp 309fd60b-d581-4169-bfe7-7f530b904b20))
+  (gr_line (start 268.2875 78.58125) (end 25.4 78.58125) (layer "Edge.Cuts") (width 0.15) (tstamp 309fd60b-d581-4169-bfe7-7f530b904b20))
   (gr_circle (center 203.99375 51.59375) (end 203.99375 50.8) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 32284c3b-e517-4019-b294-1e32733a3e41))
-  (gr_arc (start 270.66875 73.81875) (mid 269.971298 75.502548) (end 268.2875 76.2) (layer "Edge.Cuts") (width 0.15) (tstamp 3f7d0fec-5989-4b62-8bb3-4d520692feb9))
-  (gr_arc (start 25.4 76.2) (mid 23.716202 75.502548) (end 23.01875 73.81875) (layer "Edge.Cuts") (width 0.15) (tstamp 4ce3b8b8-8fb2-44c7-8e80-b6c8241e1b7b))
   (gr_arc (start 23.01875 52.3875) (mid 23.716202 50.703702) (end 25.4 50.00625) (layer "Edge.Cuts") (width 0.15) (tstamp 56e3cdd2-82c1-43d3-b9c2-ac7a4e3f5d18))
   (gr_circle (center 146.84375 51.59375) (end 146.84375 50.8) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 589f9b8b-6731-4ab3-b04d-0b6024ae052a))
   (gr_arc (start 268.2875 50.00625) (mid 269.971298 50.703702) (end 270.66875 52.3875) (layer "Edge.Cuts") (width 0.15) (tstamp 646a99be-1b43-4367-8099-34fb29276b80))
@@ -1522,10 +1520,12 @@
   (gr_circle (center 108.74375 72.23125) (end 108.74375 71.4375) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp a09ea092-0dfc-444c-81d3-ea54a29cc88c))
   (gr_circle (center 89.69375 51.59375) (end 89.69375 50.8) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp aaee8604-72ad-47ec-b71a-bd59d5807e71))
   (gr_circle (center 261.14375 72.23125) (end 261.14375 71.4375) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp b183f0ea-8b07-4ba6-b1df-2b6c77676e1d))
-  (gr_line (start 23.01875 73.81875) (end 23.01875 52.3875) (layer "Edge.Cuts") (width 0.15) (tstamp d4568fca-8a79-47ed-a346-d2262e95627c))
+  (gr_arc (start 25.4 78.58125) (mid 23.716202 77.883798) (end 23.01875 76.2) (layer "Edge.Cuts") (width 0.15) (tstamp bc3fa92f-cbeb-4bfd-b4b3-bc4df49c5df8))
+  (gr_line (start 23.01875 76.2) (end 23.01875 52.3875) (layer "Edge.Cuts") (width 0.15) (tstamp d4568fca-8a79-47ed-a346-d2262e95627c))
   (gr_circle (center 31.75 51.59375) (end 31.75 50.8) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp d7fb8cf5-4fcf-464d-ad94-da8e926ea42e))
-  (gr_line (start 270.66875 73.81875) (end 270.66875 52.3875) (layer "Edge.Cuts") (width 0.15) (tstamp e08b1606-92db-4020-8fc5-0b9315a57b44))
+  (gr_line (start 270.66875 76.2) (end 270.66875 52.3875) (layer "Edge.Cuts") (width 0.15) (tstamp e08b1606-92db-4020-8fc5-0b9315a57b44))
   (gr_circle (center 223.04375 72.23125) (end 223.04375 71.4375) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e10f43c2-28b1-4607-806f-4e61a7482117))
+  (gr_arc (start 270.66875 76.2) (mid 269.971298 77.883798) (end 268.2875 78.58125) (layer "Edge.Cuts") (width 0.15) (tstamp f6cb8ebb-f61f-46b7-a64f-5f644a78c608))
 
   (segment (start 40.48125 61.18125) (end 41.43475 61.18125) (width 0.25) (layer "F.Cu") (net 1) (tstamp 00b57a79-a763-4be5-b47b-c2357e5a49e2))
   (segment (start 79.883 60.833) (end 79.883 53.086) (width 0.25) (layer "F.Cu") (net 1) (tstamp 020a0bde-6336-4ae9-b04f-cd29f4a682a5))
@@ -1856,8 +1856,8 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 270.66875 76.2)
-        (xy 160.3375 76.2)
+        (xy 270.66875 78.58125)
+        (xy 160.3375 78.58125)
         (xy 160.3375 69.05625)
         (xy 270.66875 69.05625)
       )
@@ -1869,8 +1869,8 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 132.55625 76.2)
-        (xy 23.01875 76.2)
+        (xy 132.55625 78.58125)
+        (xy 23.01875 78.58125)
         (xy 23.01875 69.05625)
         (xy 132.55625 69.05625)
       )
