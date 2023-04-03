@@ -1,0 +1,5 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"MX_4,MX_7,MX_.1,MX_6,MX_Bksp1,MX_1,MX_3,MX_0k1,MX_2,MX_/1,MX_8,MX_9,MX_Num_Lock1,MX_+1,MX_Enter1,MX_Enter2,MX_0k2,MX_5,MX_-1,MX_*1";"MX-1U-NoLED";20;"MX-NoLED";;;
+2;"D6,D20,D8,D3,D4,D15,D16,D19,D17,D10,D18,D14,D13,D9,D5,D12,D1,D2,D11,D7";"D_SOD-123";20;"D_Small";;;
+3;"J1";"PinHeader_2x10_P2.54mm_Horizontal";1;"Conn_02x10_Counter_Clockwise";;;
+4;"J2";"PinSocket_2x10_P2.54mm_Horizontal";1;"Conn_02x10_Counter_Clockwise";;;
