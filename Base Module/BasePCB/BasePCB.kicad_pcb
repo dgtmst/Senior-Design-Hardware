@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Base Updated Gerbers/")
+      (outputdirectory "Base 60 Gerbers Final/")
     )
   )
 
