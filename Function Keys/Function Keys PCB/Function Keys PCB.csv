@@ -1,0 +1,4 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"MX_F12,MX_F5,MX_~1,MX_F6,MX_F2,MX_F7,MX_F11,MX_F4,MX_F1,MX_F8,MX_F10,MX_F3,MX_F9";"MX-1U-NoLED";13;"MX-NoLED";;;
+2;"D5,D6,D9,D13,D10,D2,D1,D3,D4,D11,D7,D8,D12";"D_SOD-123";13;"D_Small";;;
+3;"J1";"PinHeader_2x10_P2.54mm_Horizontal";1;"Conn_02x10_Counter_Clockwise";;;
